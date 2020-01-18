@@ -1,10 +1,10 @@
 from src.sudoku import solved
-from tests.values import PUZZLE, SOLUTION
+from tests.values import puzzle, solution
 
 
 def test_solved():
-    assert solved(SOLUTION) is True
+    assert solved(solution()) is True
 
 
 def test_not_solved():
-    assert solved(PUZZLE) is False
+    assert solved(puzzle()) is False
