@@ -1,5 +1,3 @@
-import pytest
-
 from src.sudoku import sudoku
 from tests.values import puzzle, solution
 
