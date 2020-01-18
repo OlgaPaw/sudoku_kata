@@ -32,8 +32,11 @@ TEST_VALUES = [
 ]
 
 
+@pytest.mark.timeout(5)
 @pytest.mark.parametrize("input_data, output_data", TEST_VALUES)
 def test_solution(input_data, output_data):
+    from time import sleep
+
     assert sudoku(str_to_matrix(input_data)) == str_to_matrix(output_data)
 
 

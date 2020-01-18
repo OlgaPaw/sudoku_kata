@@ -15,7 +15,7 @@ def solved(matrix: Matrix) -> bool:
 
 
 def missing(region: Iterable[int]) -> Set[int]:
-    return {}
+    return set()
 
 
 def column(index: int, matrix: Matrix) -> Tuple:
