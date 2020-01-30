@@ -13,3 +13,13 @@ Suggested test order:
 1. `python -m pytest tests/test_unit`
 2. `python -m pytest tests/test_solution.py`
 3. `python -m pytest tests/test_full.py`
+
+# Tasks
+
+1. Implement `solved`, `missing`, `column` and `square` methods
+1. Implement algorithm: while not solved iterate over items to find cells that have only one possible value. Fill this value and iterate again.
+1. Use set comprehension anywhere
+1. Use generator anywhere
+1. Use `zip` to get matrix column
+1. Use `itertools.chain`
+1. Use `yield from`
